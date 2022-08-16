@@ -38,7 +38,7 @@ keymap("v", "p", '"_dP', opts)
 
 -- My Custom Keybindings
 keymap("n", "<leader>fs", ":w<CR>", opts) -- save
-keymap("n", "<leader>qq", ":q<CR>", opts) -- quit
+keymap("n", "<leader>q", ":q<CR>", opts) -- quit
 
 -- Insert --
 -- Press jk fast to enter
@@ -62,3 +62,4 @@ keymap("x", "<A-j>", ":move '>-2<CR>gv-gv", opts)
 
 -- Explorer
 keymap("n", "<leader>e", ":Ex<CR>", opts)
+
