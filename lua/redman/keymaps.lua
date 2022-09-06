@@ -37,11 +37,11 @@ keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 keymap("v", "p", '"_dP', opts)
 
 -- My Custom Keybindings
-keymap("n", "<leader>fs", ":w<CR>", opts) -- save
+keymap("n", "<leader>w", ":w<CR>", opts) -- save
 keymap("n", "<leader>q", ":q<CR>", opts) -- quit
 
 -- Insert --
--- Press jk fast to enter
+-- Press jk fast to exit
 keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
@@ -61,5 +61,4 @@ keymap("x", "<A-j>", ":move '>-2<CR>gv-gv", opts)
 -- Plugins --
 
 -- Explorer
-keymap("n", "<leader>e", ":Ex<CR>", opts)
 

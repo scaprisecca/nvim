@@ -8,4 +8,5 @@ require "redman.cmp"
 require "redman.telescope"
 require "redman.treesitter"
 require "redman.lualine"
-
+require "redman.lsp" -- Loading in LSP init file
+require "redman.whichkey"
